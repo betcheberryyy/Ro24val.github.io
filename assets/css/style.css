@@ -1,0 +1,71 @@
+body{
+    background-color: black; 
+    font-family: "Roboto", sans-serif;
+
+}
+
+/* inicio imagen mas texto*/
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 15px;
+    padding: 0%;
+    justify-content: space-around;  
+    text-align: justify;
+    }
+
+header>p{
+ 
+    width: 50%;
+    height: 250px;
+    margin-top: 10%; 
+}
+/* termino imagen mas texto*/
+/* inicio iconos*/
+main{
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.iconos{
+    text-align: center;
+}
+
+.iconos>i{
+    font-size: 50px;
+    padding: 30px;
+}
+
+.iconos>h4{
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+.iconos>li{
+    list-style-type: none
+}
+
+.ul{
+    text-align: justify;
+}
+/* Termino iconos*/
+/* inicio Portafolio*/
+
+section>h2{
+    margin-left: 45%;
+    
+    color: white;
+}
+
+footer{
+    background-color: white;
+    height: 50px;
+    text-align: center;
+    
+}
